@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 641px;
+}
+
+.square {
+    background-color: red;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    width: 30%;
+    float: left;
+    border-radius: 5%;
+    transition: background 0.5s;
+}
+
+.head {
+    background-color: white;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    padding: 2%;
+    margin: 0;
+    border: 2px solid gold;
+}
+
+#message {
+    display: inline-block;
+    text-transform: uppercase;
+    width: 10%;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 100%;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.selected {
+    color: white;
+    background-color: dodgerblue;
+}
